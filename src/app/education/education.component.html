@@ -1,15 +1,14 @@
 <h3>Educación</h3>
-<ul *ngFor="let work of education">
+<ul *ngFor="let edu of education">
     <li>
         <tr>
-                <td>{{work.fecha}}</td>
+                <td>{{edu.fecha}}</td>
+                
         </tr>
         <tr>
-            <td>{{work.ubicacion}}</td>
-        </tr> 
-        <tr>
-            <td>{{work.escuela}}</td>
+            <td>{{edu.ubicacion}}</td>
             
-        </tr>
+        </tr> 
     </li>
+    <td>{{edu.escuela}}</td>
 </ul>

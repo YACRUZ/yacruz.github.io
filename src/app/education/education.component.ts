@@ -6,27 +6,25 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./education.component.css']
 })
 export class EducationComponent implements OnInit {
-
   education: Array<any> = [];
-
   constructor() { }
 
   ngOnInit(): void {
-    let work1 = {
+    let edu1 = {
       fecha: "2017-2020",
       ubicacion: "Huatusco, ver",
       escuela: "Esc. Gral. Francisco J. Mugica"
-    };
 
-    let work2 = {
+    };
+    let edu2 = {
       fecha: "2020-2024",
       ubicacion: "Orizaba, ver",
-      escuela: "Universidad Veracruzana"
+      escuela: "Universdad Veracruzana"
     };
 
 
-    this.education.push(work1);
-    this.education.push(work2);
+    this.education.push(edu1);
+    this.education.push(edu2);
   }
-
 }
+
