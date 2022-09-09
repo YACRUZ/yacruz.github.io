@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EducationComponent implements OnInit {
 
+
   education: Array<any> = [];
 
   constructor() { }
@@ -30,3 +31,4 @@ export class EducationComponent implements OnInit {
   }
 
 }
+
