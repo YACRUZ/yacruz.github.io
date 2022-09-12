@@ -1,12 +1,23 @@
-<h3>Reconocimientos y certificados</h3>
-<ul *ngFor="let cer of certificates">
-    <li>
+<article class="Contenedor">
+    <section class="Titulo_Caja">
+      <h1 class="Titulo_Letra"> Certificados </h1>
+    </section>
+  
+    <table class="Tabla_Contenido">
+      <ul *ngFor="let cer of certificates">
         <tr>
-                <td>{{cer.titulo}}</td>
-                <td>{{cer.fecha}}</td>
+            <p class="Tabla_Contenido_ Letra Tabla_Contenido_Letra-Texto">
+              {{ cer.fecha }}
+              {{ cer.titulo }}
+            </p>
         </tr>
+  
         <tr>
-            <td>{{cer.descripcion}}</td>
-        </tr> 
-    </li>
-</ul>
+            <p class="Tabla_Contenido_ Letra Tabla_Contenido_Letra-Titulo">
+              {{ cer.descripcion }}
+            </p>
+        </tr>
+  
+      </ul>
+    </table>
+  </article>

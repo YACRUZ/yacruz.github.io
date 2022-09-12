@@ -1,14 +1,23 @@
-<h3>Educación</h3>
-<ul *ngFor="let work of education">
-    <li>
+<article class="Contenedor">
+    <section class="Titulo_Caja">
+      <h1 class="Titulo_Letra"> Educación </h1>
+    </section>
+  
+    <table class="Tabla_Contenido">
+      <ul *ngFor="let work of education">
         <tr>
-                <td>{{work.fecha}}</td>
+            <p class="Tabla_Contenido_ Letra Tabla_Contenido_Letra-Texto">
+              {{ work.fecha }}
+              {{ work.ubicacion }}
+            </p>
         </tr>
+  
         <tr>
-            <td>{{work.ubicacion}}</td>
-        </tr> 
-        <tr>
-            <td>{{work.escuela}}</td>
+            <p class="Tabla_Contenido_ Letra Tabla_Contenido_Letra-Titulo">
+              {{ work.escuela }}
+            </p>
         </tr>
-    </li>
-</ul>
+  
+      </ul>
+    </table>
+  </article>
