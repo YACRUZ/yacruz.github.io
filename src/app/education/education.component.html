@@ -1,0 +1,23 @@
+<article class="Contenedor">
+    <section class="Titulo_Caja">
+      <h1 class="Titulo_Letra"> Educación </h1>
+    </section>
+  
+    <table class="Tabla_Contenido">
+      <ul *ngFor="let work of education">
+        <tr>
+            <p class="Tabla_Contenido_ Letra Tabla_Contenido_Letra-Texto">
+              {{ work.fecha }}
+              {{ work.ubicacion }}
+            </p>
+        </tr>
+  
+        <tr>
+            <p class="Tabla_Contenido_ Letra Tabla_Contenido_Letra-Titulo">
+              {{ work.escuela }}
+            </p>
+        </tr>
+  
+      </ul>
+    </table>
+  </article>
