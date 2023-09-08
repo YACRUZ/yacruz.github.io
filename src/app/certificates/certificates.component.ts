@@ -28,6 +28,7 @@ export class CertificatesComponent implements OnInit {
       fecha: "[2023]",
       titulo: "Certificado de Python",
       href: "https://bit.ly/PythonYahir",
+      
       descripcion: "https://bit.ly/PythonYahir"
     };
     
@@ -35,6 +36,7 @@ export class CertificatesComponent implements OnInit {
       fecha: "[2023]",
       titulo: "Certificado de Pandas",
       href: "https://bit.ly/PandasYahir",
+
       descripcion: "https://bit.ly/PandasYahir",
     };
 
