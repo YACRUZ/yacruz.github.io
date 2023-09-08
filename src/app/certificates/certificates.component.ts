@@ -15,7 +15,8 @@ export class CertificatesComponent implements OnInit {
     let cer1 = {
       fecha: "[2020]",
       titulo: "Certificado en Scrum",
-      descripcion: "Recibido por VMEdu, en ScrumStudy"
+      descripcion: "Recibido por VMEdu, en ScrumStudy",
+      link: ""
     };
 
     let cer2 = {
@@ -27,17 +28,15 @@ export class CertificatesComponent implements OnInit {
     let cer3 = {
       fecha: "[2023]",
       titulo: "Certificado de Python",
-      href: "https://bit.ly/PythonYahir",
-      
-      descripcion: "https://bit.ly/PythonYahir"
+      descripcion: "Recibido por Kaggle para Python",
+      link: "https://bit.ly/PythonYahir"
     };
     
     let cer4 = {
       fecha: "[2023]",
       titulo: "Certificado de Pandas",
-      href: "https://bit.ly/PandasYahir",
-
-      descripcion: "https://bit.ly/PandasYahir",
+      descripcion: "Recibido por Kaggle para Pandas",
+      link: "https://bit.ly/PandasYahir"
     };
 
 
