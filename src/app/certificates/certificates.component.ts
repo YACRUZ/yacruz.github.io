@@ -27,13 +27,15 @@ export class CertificatesComponent implements OnInit {
     let cer3 = {
       fecha: "[2023]",
       titulo: "Certificado de Python",
+      href: "https://bit.ly/PythonYahir",
       descripcion: "https://bit.ly/PythonYahir"
     };
     
     let cer4 = {
       fecha: "[2023]",
       titulo: "Certificado de Pandas",
-      descripcion: "https://bit.ly/PandasYahir"
+      href: "https://bit.ly/PandasYahir",
+      descripcion: "https://bit.ly/PandasYahir",
     };
 
 
