@@ -39,11 +39,26 @@ export class CertificatesComponent implements OnInit {
       link: "https://bit.ly/PandasYahir"
     };
 
+    let cer5 = {
+      fecha: "[2023]",
+      titulo: "Certificado de Intro to Machine Learning",
+      descripcion: "Recibido por Kaggle para Pandas",
+      link: "https://raw.githubusercontent.com/YACRUZ/Cursos/main/Intro_ML/Yahir%20Jesus%20Jacome%20Cogco%20-%20Intro%20to%20Machine%20Learning.png"
+    };
+
+    let cer6 = {
+      fecha: "[2023]",
+      titulo: "Certificado de Intermediate to Machine Learning",
+      descripcion: "Recibido por Kaggle para Pandas",
+      link: "https://raw.githubusercontent.com/YACRUZ/Cursos/main/Inter_ML/Yahir%20Jesus%20Jacome%20Cogco%20-%20Intermediate%20Machine%20Learning.png"
+    };
 
     this.certificates.push(cer1);
     this.certificates.push(cer2);
     this.certificates.push(cer3);
     this.certificates.push(cer4);
+    this.certificates.push(cer5);
+    this.certificates.push(cer6);
   }
 
 }
