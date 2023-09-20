@@ -59,6 +59,7 @@ export class CertificatesComponent implements OnInit {
     this.certificates.push(cer4);
     this.certificates.push(cer5);
     this.certificates.push(cer6);
+
+    
   }
-  
 }
